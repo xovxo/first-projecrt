@@ -1,3 +1,13 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 .page {
   min-width: 1100px;
   max-width: 1600px;
@@ -109,9 +119,8 @@
 
 .section-title {
   text-align: center;
-  margin-bottom: 20px;
   width: 60%;
-  margin: 0 auto;
+  margin: 0 auto 20px auto;
   line-height: 69px;
   font-size: 60px;
 }
@@ -127,7 +136,6 @@
 .table {
   width: 1100px;
   display: flex;
-
   justify-content: space-between;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -136,6 +144,7 @@
 .table__cell {
   width: 250px;
   margin-top: 60px;
+  border: 1px solid red;
 }
 
 .table__heaging {
@@ -181,4 +190,73 @@
   background-image: url(/how-to-learn/images/feynman.png);
   background-repeat: no-repeat;
   background-position: bottom left;
+}
+
+.kaufman {
+  background-color: #1f1f1f;
+  color: white;
+  overflow: hidden;
+  padding: 90px 0;
+  position: relative;
+}
+
+.section-title__theme_dark {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto 20px auto;
+  line-height: 69px;
+  font-size: 60px;
+}
+
+.section-subtitle__theme_dark {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.table__cell_theme_dark {
+  width: 200px;
+  margin-top: 80px;
+  position: relative;
+  border: 1px solid red;
+}
+
+.table__heaging_theme_dark {
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24;
+}
+
+.table__text_theme_dark {
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+}
+
+.kaufman__triangle {
+  background-image: url(/how-to-learn/images/kaufman-triangle.svg);
+  height: 877px;
+  width: 877px;
+  position: absolute;
+  right: -210px;
+  top: 0;
+}
+
+.logo__place_footer {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  background-image: url(/how-to-learn/images/logo_place_header.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 32px;
+  width: 183px;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  position: relative;
+  color: white;
 }
