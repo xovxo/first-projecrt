@@ -144,7 +144,6 @@ p {
 .table__cell {
   width: 250px;
   margin-top: 60px;
-  border: 1px solid red;
 }
 
 .table__heaging {
@@ -198,6 +197,7 @@ p {
   overflow: hidden;
   padding: 90px 0;
   position: relative;
+  height: 90vh;
 }
 
 .section-title__theme_dark {
@@ -220,7 +220,6 @@ p {
   width: 200px;
   margin-top: 80px;
   position: relative;
-  border: 1px solid red;
 }
 
 .table__heaging_theme_dark {
@@ -244,9 +243,26 @@ p {
   top: 0;
 }
 
+.footer {
+  background-color: #1f1f1f;
+  position: relative;
+  color: white;
+  min-height: 350px;
+}
+
+.footer__colums {
+  width: 90%;
+  padding: 60px 0 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__colums_content_copyright {
+  flex-basis: 711px;
+}
+
 .logo__place_footer {
   position: absolute;
-  top: 30px;
+  top: 60px;
   left: 64px;
   background-image: url(/how-to-learn/images/logo_place_header.svg);
   background-repeat: no-repeat;
@@ -255,8 +271,37 @@ p {
   width: 183px;
 }
 
-.footer {
-  background-color: #1f1f1f;
-  position: relative;
+.footer__author {
+  position: absolute;
+  bottom: 40px;
+  left: 64px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.footer__colums_content_info {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.footer__column-heading {
+  margin-bottom: 20px;
+}
+
+.footer__column-links {
+  margin-bottom: 16px;
+  display: grid;
+  text-decoration: none;
   color: white;
+}
+
+.footer__colums_content_social {
+  display: grid;
+}
+.footer__column-link {
+  text-decoration: none;
+  color: white;
+}
+.footer__social-icon {
+  margin-right: 10px;
 }
